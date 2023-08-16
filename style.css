@@ -50,7 +50,7 @@ div {
 
 .header,
 .inputs-area{
-	padding: 50px 0px 30px 50px;
+	padding: 80px 0px 60px 60px;
 }
 
 .inputs-area,
@@ -59,6 +59,7 @@ div {
 }
 
 .inputs-area{
+	padding-top: 0px;
 	box-shadow: 0px 5px 5px rgb(124, 124, 124);
 }
 
@@ -70,4 +71,25 @@ label{
 	font-size: 0.7rem;
 	color: rgb(39, 39, 39);
 	font-style: normal;
+}
+
+.submit-area{
+	flex-direction: column;
+	padding: 40px 0px 0px 50px;
+	font-style: normal;
+}
+
+.submit{
+	width: fit-content;
+	padding: 10px 15px;
+	border-radius: 20px;
+	background-color: lightgreen;
+}
+
+.submit-area p {
+	padding-top: 15px;
+}
+
+.submit-area a {
+	color: rgb(89, 174, 89);
 }
