@@ -38,11 +38,11 @@ div {
 }
 
 .container {
-	width: auto;
+	width: 100vw;
+	height: 100vh;
 }
 
 .form {
-	height: 100vh;
 	width: 70%;
 	background-color: white;
 	flex-shrink: 0;
